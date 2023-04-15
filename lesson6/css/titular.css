@@ -1,0 +1,7 @@
+.titular {
+    height: 601px;
+    background-image: url(../img/titular-img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

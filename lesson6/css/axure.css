@@ -1,0 +1,65 @@
+.axure {
+    padding: 58px 0 38px;
+    background-image: url('../img/axure-img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.axure::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/axure-img/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.55);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title-axure {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    max-width: 670px;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-axure::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+    background-color: #FFFFFF;
+    display: block;    
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.axure-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+
+.download:hover {
+    transform: scale(1.2);
+    background-color: #EC7979;
+}

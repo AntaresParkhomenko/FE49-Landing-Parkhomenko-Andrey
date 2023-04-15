@@ -1,0 +1,130 @@
+.header {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navigation {
+    padding: 0 15px;
+}
+
+.header-navigation-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-navigation-items__item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 48px;
+}
+
+.header-navigation-items__item:last-child {
+    margin-right: 0;
+}
+
+.logotape-basic {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.logotape-basic::after {
+    content: 'it';
+    text-transform: uppercase;
+    color: #EC7979;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.dropbtn {
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    border: none;
+}
+
+.header-navigation-items__item a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 180px;
+}
+
+.dropdown-content p {
+    color: black;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.897);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 5px;
+}
+
+.dropdown-content p:hover {
+    background-color: rgba(139, 139, 139, 0.7);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown-content i {
+    margin-right: 10px;
+}
