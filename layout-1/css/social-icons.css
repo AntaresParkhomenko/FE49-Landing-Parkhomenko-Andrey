@@ -1,0 +1,83 @@
+.social-icons {
+    background: #F8EFEF;
+    padding: 0.9375rem 0 1.0625rem;
+}
+
+.social-icons-container {
+    max-width: 73.125rem;
+    padding: 0 0.9375rem;
+    margin: auto;
+}
+
+.social-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -0.9375rem;
+}
+
+.social-media {
+    width: 22.8125rem;
+    margin: 0 0.9375rem;
+}
+
+.social-tittle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    color: #333333;
+    margin-bottom: 0.875rem;
+}
+
+.social-media__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    align-items: center;
+    color: #86878B;
+}
+
+
+
+.icons-items {
+    width: 41.75rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 0.9375rem;
+}
+
+.icons-item a {
+    font-size: 2.625rem;
+    color: #dad6d6;
+}
+
+.fa-facebook-f-social:hover {
+    color: #4267B2;
+}
+.fa-twitter-social:hover {
+    color: #1DA1F2;
+}
+.fa-google-plus-g-social:hover {
+    color: #4267B2;
+}
+.fa-pinterest-social:hover {
+    color: #E60023;
+}
+.fa-square-instagram-social:hover {
+    color: #cd41ad;
+}
+.fa-stumbleupon-social:hover {
+    color: #E60023;
+}
+.fa-rss-social:hover {
+    color: rgb(255, 168, 5);
+}
+
+
+

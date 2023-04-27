@@ -1,0 +1,124 @@
+.tabs {
+    padding: 7.8125rem 0;
+    background-color: #FFF;
+}
+.tabs-container {
+    max-width: 73.125rem;
+    padding: 0 0.9375rem;
+    margin: auto;
+}
+.tabs-wrap {
+    margin: 0 -0.9375rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tabs-tab {
+    margin: 0 0.9375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tabs-tab__item {    
+    margin-bottom: 0.625rem;  
+}
+.tabs-tab__item:last-child {
+    margin-bottom: 0;
+}
+.tabs-tab button {
+    background-color: #333333;
+    width: 7rem;
+    height: 6.875rem;
+    margin: auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.tabs-content {
+    margin: 0 0.9375rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tabs-content__description {
+    margin-right: 5rem;
+    width: 32.75rem;
+}
+.tabs-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.6875rem;
+    color: #000000;
+    margin-bottom: 3.625rem;
+}
+.tabs-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+    margin-bottom: 94px;
+}
+.tabs-description p {
+    margin-bottom: 15px;
+}
+.tabs-description p:last-child {
+    margin-bottom: 0;
+}
+.tabs-download {
+    width: 135px;
+    height: 42px;    
+}
+
+.tabs-download a {
+    background-color: #EC7979;
+    color: #FFF;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    padding: 11px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    transition: 1s;
+}
+
+.tabs-download a:hover {
+    transform: scale(1.2);
+    background-color: #333333;
+}
+.tabs-content__images {
+    width: 21.875em;
+    height: 15.8125em;
+    overflow: hidden;
+}
+.tabs-content__images img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+/* #tab-1 {
+    display: none;
+} */
+#tab-2 {
+    display: none;
+}
+#tab-3 {
+    display: none;
+}

@@ -1,0 +1,124 @@
+.pricing {
+    background-color: #F5F5F5;
+    padding: 80px 0 60px;
+}
+.pricing-container {
+    max-width: 73.125rem;
+    padding: 0 0.9375rem;
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}    
+.pricing-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    color: #212121;
+    max-width: 41.875rem;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-title::after {
+    content: '';
+    width: 4rem;
+    height: 2px;
+    background-color: #E72424;
+    display: block;    
+    margin: auto;
+    margin-top: 2.125rem;
+    margin-bottom: 2.125rem;
+}
+
+.pricing-description {
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    margin: auto;
+    text-align: center;
+    width: 22.6875rem;
+    margin-bottom: 3.875rem;   
+}
+
+.pricing-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -0.9375rem;
+}
+
+.pricing-cart {
+    width: 21.25rem;
+    margin: 0 0.9375rem;
+}
+
+.pricing-cart__name {
+    height: 3.125rem;
+    background: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 3.125rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.pricing-cart__price {
+    background: #333333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 6.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+}
+
+.pricing-cart__bonus {
+    background: #333333;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 3.125rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 2px;
+}
+
+.pricing-cart__spase {
+    background-color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 2px;
+    transition: 0.5s;
+}
+
+.pricing-cart__spase:hover {
+    text-transform: uppercase;
+    background-color: #EC7979;
+    color: white;
+    font-weight: 700;
+    border-radius: 0 1.25rem 0 1.25rem;
+    transform: translate(-0.9375rem, 1.25rem);
+}
+
+.pricing-cart__spase:last-child {
+    margin-bottom: 0;
+}
+

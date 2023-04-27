@@ -1,0 +1,139 @@
+.header {
+    background-color: #000000;
+    padding: 1.25rem 0;
+    flex-direction: none;
+}
+
+.header-container {
+    max-width: 73.125rem;
+    padding: 0 0.9375rem;
+    margin: auto;
+    position: relative;
+    z-index: 9;
+}
+
+.header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -0.9375rem;
+}
+
+.header-navigation-items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0.9375rem;
+}
+
+.header-navigation-items__item {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 3rem;
+    border-bottom: 2px solid transparent;
+}
+
+.header-navigation-items__item:last-child {
+    margin-right: 0;
+}
+
+.header-navigation-items__item:hover {
+    border-bottom: 2px solid #EC7979;
+}
+
+.logotape-basic {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+    margin: 0 0.9375rem;
+}
+
+.logotape-basic::after {
+    content: 'it';
+    text-transform: uppercase;
+    color: #EC7979;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 40;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
+}
+
+.dropbtn {
+    background-color: #000000;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    text-transform: capitalize;
+    border: none;
+}
+
+.header-navigation-items__item a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 9;
+}
+
+.dropdown-content {
+    right: 0;
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 11.25rem;
+}
+
+.dropdown-content p {
+    color: black;
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.897);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    padding: 0.3125rem;
+}
+
+.dropdown-content p:hover {
+    background-color: rgba(139, 139, 139, 0.7);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.dropdown-content i {
+    margin-right: 0.625rem;
+}
